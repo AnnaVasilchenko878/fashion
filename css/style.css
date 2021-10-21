@@ -152,6 +152,18 @@ input[type="radio"].visually-hidden {
     clip-path: inset(100%);
 }
 
+.btn {
+    border: none;
+}
+
+.link-start {
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: var(--white-two);
+}
+
 /* ===========header=========== */
 .header-wrap {
     padding: 40px 54px 45px 144px;
@@ -219,15 +231,6 @@ input[type="radio"].visually-hidden {
     line-height: 26px;
     text-align: left;
     color: var(--greyish-brown);
-}
-
-.promo-slide-link {
-    font-weight: 700;
-    font-size: 9px;
-    line-height: 13px;
-    text-transform: uppercase;
-    color: var(--white-two);
-
 }
 
 .btn-prev,
@@ -326,4 +329,205 @@ input[type="radio"].visually-hidden {
     text-align: center;
     text-transform: uppercase;
     color: var(--black-four);
+}
+
+.content-signature {
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+.content-product {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 36px;
+    text-align: center;
+    color: var(--black-two);
+}
+
+/* =============product-new====== */
+.product-new-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--black-four);
+}
+
+.product-new-subtitle {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--black-five);
+}
+
+.product-new-view {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 71px;
+    text-align: center;
+    color: var(--black-three);
+}
+
+/* =============product-types=== */
+.product-types-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--black-four);
+}
+
+.product-types-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: var(--black-five);
+}
+
+/* ========featured-product-slider== */
+.product-header-item {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+.featured-product-title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 11px;
+    text-align: left;
+    color: var(--black-five);
+}
+
+.featured-product-brand {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 11px;
+    text-align: left;
+    color: var(--warm-grey);
+}
+
+.featured-product-last-price {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 11px;
+    text-align: left;
+    text-decoration: line-through;
+    color: var(--black-five);
+}
+
+.features-product-new-price {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 11px;
+    text-align: left;
+    color: var(--black-five);
+}
+
+.featured-product-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--black-five);
+
+}
+
+/* ==========subscribe============ */
+.subscribe-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--black-five);
+}
+
+.subscribe-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: var(--black-five);
+}
+
+/* ===============news-slide===== */
+.news-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--black-four);
+}
+
+.news-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+.news-data {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    text-align: center;
+    color: var(--warm-grey-two);
+}
+
+/* =========footer======== */
+.information-title,
+.my-profile-title,
+.your-account-title,
+.lookbook-title,
+.contact-title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--dirty-purple);
+}
+
+.information-link,
+.my-profile-link,
+.your-account-link,
+.lookbook-link,
+.contact-link {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    color: var(--warm-grey-three);
+}
+
+.connection {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    color: var(--black);
+}
+
+.site-copyright {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--warm-grey-three);
 }

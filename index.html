@@ -33,10 +33,10 @@
                     <a href="#" class="icon-basket">
                         <img src="#" alt="#">
                     </a>
-                    <button class="btn-search">
+                    <button class="btn btn-search">
                         <img src="#" alt="#">
                     </button>
-                    <button class="btn-menu">
+                    <button class="btn btn-menu">
                         <img src="#" alt="#">
                     </button>
                 </div>
@@ -46,51 +46,65 @@
     <main>
         <section class="promo">
             <ul class="promo-follow">
-                <li class="promo-follow-item">Follow us</li>
-                <li class="promo-follow-item"><a class="follow-link" href="#">Instagram</a> </li>
-                <li class="promo-follow-item"><a class="follow-link" href="#">Google</a> </li>
-                <li class="promo-follow-item"><a class="follow-link" href="#">Twitter</a> </li>
-                <li class="promo-follow-item"><a class="follow-link" href="#">Facebook</a> </li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">Instagram</a></li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">Google</a></li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">Twitter</a></li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">Facebook</a></li>
+                <li class="promo-follow-item follow">Follow us</li>
             </ul>
             <ul class="promo-slider">
                 <li class="promo-slide-item">
-                    <h2 class="slide-title">Summer Collection</h2>
-                    <span class="promo-slide-number">01</span>
-                    <span class="promo-slide-purpose">Men&#180;s wear</span>
-                    <button class="btn btn-description" type="button"></button>
-                    <button class="btn favorites" type="button"></button>
-                    <button class="btn share" type="button"></button>
-                    <p class="promo-slide-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum nibh, vel aliquet massa. Etiam in magna id risus lacinia luctus eget eu est.</p>
-                    <a class="promo-slide-link link-start">Shop now</a>
+                    <picture>
+                        <source type="image/webp" srcset="img/img-slide-1.webp">
+                        <img class="content-img" src="img/img-slide-1.jpg" width="1900" height="1000" alt="Summer collection">
+                    </picture>
+                    <div class="slide-content-wrapper">
+                        <h2 class="slide-title">Summer Collection</h2>
+                        <span class="promo-slide-number">01</span>
+                        <span class="promo-slide-purpose">Men&#180;s wear</span>
+                        <div class="btn-wrapper">
+                            <button class="btn btn-description" type="button">Description</button>
+                            <button class="btn favorites" type="button">Like</button>
+                            <button class="btn share" type="button">Share</button>
+                        </div>
+                        <p class="promo-slide-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum nibh, vel aliquet massa. Etiam in magna id risus lacinia luctus eget eu est.</p>
+                        <a class="promo-slide-link link-start">Shop now</a>
+      
+                    </div>
                 </li>
-                <button class="btn btn-prev" type="button">Prev</button>
-                <button class="btn btn-next" type="button">Next</button>    
+                <div class="slide-btn-wrapper">
+                    <button class="btn btn-prev" type="button">Prev</button>
+                    <button class="btn btn-next" type="button">Next</button>        
+                </div>
             </ul>
         </section>
         <section class="special-offer">
-                <picture>
+                <picture class="special-offer-pic">
                     <source type="image/webp" srcset="img/img-special-offer.webp">
-                    <img class="content-img" src="img/img-special-offer.jpg" width="231" height="482" alt="Special offer">
+                    <img class="special-offer-img" src="img/img-special-offer.jpg" width="231" height="490" alt="Special offer">
                 </picture>
-            <h2 class="special-offer-title">Special offer of the month</h2>
-                <p class="special-offer-subtitle">Black long sleeve</p>
-                <span class="last-price">105</span>
-                <span class="new-price">65</span>
-                <a class="special-offer-link link-start" href="#">Shop now</a>
-                <ul class="counter">
-                    <li class="counter-item">
-                        <span class="number-hourse">09</span>
-                        <p class="counter-hourse">Hourse</p>
-                    </li>
-                    <li class="counter-item">
-                        <span class="number-minutes">09</span>
-                        <p class="counter-minutes">Hourse</p>
-                    </li>
-                    <li class="counter-item">
-                        <span class="number-seconds">09</span>
-                        <p class="counter-seconds">Hourse</p>
-                    </li>    
-                </ul>
+                <div class="special-offer-wrapper">
+                    <h2 class="special-offer-title">Special offer of the month</h2>
+                    <p class="special-offer-subtitle">Black long sleeve</p>
+                    <span class="last-price">105</span>
+                    <span class="new-price">65</span>
+                    <a class="special-offer-link link-start" href="#">Shop now</a>
+                    <ul class="counter">
+                        <li class="counter-item">
+                            <span class="number-hourse">09</span>
+                            <p class="counter-hourse">Hourse</p>
+                        </li>
+                        <li class="counter-item">
+                            <span class="number-minutes">56</span>
+                            <p class="counter-minutes">Minutes</p>
+                        </li>
+                        <li class="counter-item">
+                            <span class="number-seconds">11</span>
+                            <p class="counter-seconds">Seconds</p>
+                        </li>    
+                    </ul>
+      
+                </div>
         </section>
         <section class="product-tab">
             <h2 class="visually-hidden">Products</h2>
@@ -108,16 +122,18 @@
                         <source type="image/webp" srcset="img/img-sneakers.webp">
                         <img class="content-img" src="img/img-sneakers.jpg" width="277" height="278" alt="Sneakers">
                     </picture>
-                    <p class="content-signature">Buy 2 get up 50% off</p> 
+                    <p class="content-signature content-sneakers">Buy 2 get up 50% off</p> 
                 </li>
                 <li class="tab-content-item item-vintage">
                     <picture>
                         <source type="image/webp" srcset="img/img-vintage-look.webp">
                         <img class="content-img" src="img/img-vintage-look.jpg" width="470" height="526" alt="Vintage look">
                     </picture>
-                    <p class="content-product">Winter jacket</p>
-                    <p class="content-signature">Vintage look for women</p> 
-                    <a class="content-view link-start">Shop now</a>
+                    <div class="vintage-wrapper">
+                        <p class="content-product">Winter jacket</p>
+                        <p class="content-signature">Vintage look for women</p> 
+                        <a class="content-view link-start">Shop now</a>    
+                    </div>
                 </li>
                 <li class="tab-content-item">
                     <picture>
@@ -142,7 +158,6 @@
                     <!-- </picture> -->
                     <p class="content-signature">40% off on sunglasses</p> 
                 </li>
-
             </ul>
         </section>
         <section class="product-new">

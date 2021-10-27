@@ -45,6 +45,13 @@
     </header>
     <main>
         <section class="promo">
+            <ul class="promo-follow">
+                <li class="promo-follow-item">Follow us</li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">Instagram</a> </li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">Google</a> </li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">Twitter</a> </li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">Facebook</a> </li>
+            </ul>
             <ul class="promo-slider">
                 <li class="promo-slide-item">
                     <h2 class="slide-title">Summer Collection</h2>
@@ -56,17 +63,11 @@
                     <p class="promo-slide-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed fermentum nibh, vel aliquet massa. Etiam in magna id risus lacinia luctus eget eu est.</p>
                     <a class="promo-slide-link link-start">Shop now</a>
                 </li>
+                <button class="btn btn-prev" type="button">Prev</button>
+                <button class="btn btn-next" type="button">Next</button>    
             </ul>
-            <button class="btn btn-prev" type="button">Prev</button>
-            <button class="btn btn-next" type="button">Next</button>
-            <ul class="promo-follow">
-                <li class="promo-follow-item">Follow us</li>
-                <li class="promo-follow-item"><a class="follow-link" href="#">Instagram</a> </li>
-                <li class="promo-follow-item"><a class="follow-link" href="#">Google</a> </li>
-                <li class="promo-follow-item"><a class="follow-link" href="#">Twitter</a> </li>
-                <li class="promo-follow-item"><a class="follow-link" href="#">Facebook</a> </li>
-            </ul>
-            <div class="special-offer">
+        </section>
+        <section class="special-offer">
                 <picture>
                     <source type="image/webp" srcset="img/img-special-offer.webp">
                     <img class="content-img" src="img/img-special-offer.jpg" width="231" height="482" alt="Special offer">
@@ -90,10 +91,9 @@
                         <p class="counter-seconds">Hourse</p>
                     </li>    
                 </ul>
-            </div>
         </section>
         <section class="product-tab">
-            <h2 class="vusually-hidden">Products</h2>
+            <h2 class="visually-hidden">Products</h2>
             <ul class="product-tab-header">
                 <li class="tab-header-item">all</li>
                 <li class="tab-header-item">spring-summer</li>
@@ -110,7 +110,7 @@
                     </picture>
                     <p class="content-signature">Buy 2 get up 50% off</p> 
                 </li>
-                <li class="tab-content-item">
+                <li class="tab-content-item item-vintage">
                     <picture>
                         <source type="image/webp" srcset="img/img-vintage-look.webp">
                         <img class="content-img" src="img/img-vintage-look.jpg" width="470" height="526" alt="Vintage look">
@@ -128,18 +128,18 @@
                     <p class="content-signature">Fashion for men</p> 
                     <a class="content-view link-start">Shop now</a>
                 </li>
-                <li class="tab-content-item">
+                <li class="tab-content-item item-bags">
                     <picture>
                         <source type="image/webp" srcset="img/img-bag.webp">
                         <img class="content-img" src="img/img-bag.jpg" width="277" height="171" alt="Bag">
                     </picture>
 
                 </li>
-                <li class="tab-content-item">
-                    <picture>
-                        <source type="image/webp" srcset="img/sunglass.webp">
-                        <img class="content-img" src="img/img-sunglass.jpg" width="370" height="244" alt="Sunglass">
-                    </picture>
+                <li class="tab-content-item item-sunglass">
+                    <!-- <picture> -->
+                        <!-- <source type="image/webp" srcset="img/sunglass.webp"> -->
+                        <!-- <img class="content-img" src="img/img-sunglass.jpg" width="370" height="244" alt="Sunglass"> -->
+                    <!-- </picture> -->
                     <p class="content-signature">40% off on sunglasses</p> 
                 </li>
 
@@ -257,7 +257,6 @@
                         <img class="content-img" src="img/img-blog-news-2.jpg" width="572" height="381" alt="People blog">
                     </picture>                    
                     <h3 class="news-title">The 15 secrets about fashion people</h3>
-                    <h3 class="news-title">The 15 secrets about fashion people</h3>
                     <span class="news-data">January 12, 2020 by admin</span>
                 </li>
             </ul>
@@ -266,104 +265,108 @@
         </section>
     </main>
     <footer>
-        <section class="information">
-            <h2 class="iformation-title">Information</h2>
-            <ul class="information-list">
-                <li class="information-item">
-                    <a class="information-link" href="#">The brand</a> 
-                </li>
-                <li class="information-item">
-                    <a class="information-link" href="#">Local stores</a> 
-                </li>
-                <li class="information-item">
-                    <a class="information-link" href="#">Customer service</a> 
-                </li>
-                <li class="information-item">
-                    <a class="information-link" href="#">Privacy & cookies</a> 
-                </li>
-                <li class="information-item">
-                    <a class="information-link" href="#">Site map</a> 
-                </li>
-            </ul>
-        </section>
-        <section class="my-profile">
-            <h2 class="my-profile-title">My profile</h2>
-            <ul class="my-profile-list">
-                <li class="my-profile-item">
-                    <a class="my-profile-link" href="#">Getting Started</a>
-                </li>
-                <li class="my-profile-item">
-                    <a class="my-profile-link" href="#">FAQs</a>
-                </li>
-                <li class="my-profile-item">
-                    <a class="my-profile-link" href="#">Buying Guide</a>
-                </li>
-                <li class="my-profile-item">
-                    <a class="my-profile-link" href="#">Order Returns</a>
-                </li>
-                <li class="my-profile-item">
-                    <a class="my-profile-link" href="#">Affiliate Program</a>
-                </li>
-            </ul>
-        </section>
-        <section class="your-account">
-            <h2 class="your-account-title">Your account</h2>
-            <ul class="your-account-list">
-                <li class="your-account-item">
-                    <a class="your-account-link" href="#">Shipping & returns</a>
-                </li>
-                <li class="your-account-item">
-                    <a class="your-account-link" href="#">Secure shopping</a>
-                </li>
-                <li class="your-account-item">
-                    <a class="your-account-link" href="#">Testimonials</a>
-                </li>
-                <li class="your-account-item">
-                    <a class="your-account-link" href="#">Award winning</a>
-                </li>
-                <li class="your-account-item">
-                    <a class="your-account-link" href="#">Ethical trading</a>
-                </li>
-            </ul>
-
-        </section>
-        <section class="lookbook">
-            <h2 class="lookbook-title">My profile</h2>
-            <ul class="lookbook-list">
-                <li class="lookbook-item">
-                    <a class="lookbook-link" href="#">Getting Started</a>
-                </li>
-                <li class="lookbook-item">
-                    <a class="lookbook-link" href="#">FAQs</a>
-                </li>
-                <li class="lookbook-item">
-                    <a class="lookbook-link" href="#">Buying Guide</a>
-                </li>
-                <li class="lookbook-item">
-                    <a class="lookbook-link" href="#">Order Returns</a>
-                </li>
-                <li class="lookbook-item">
-                    <a class="lookbook-link" href="#">Affiliate Program</a>
-                </li>
-            </ul>
-        </section>
-        <section class="contact">
-            <h2 class="contact-title">Contact details</h2>
-            <ul class="contact-list">
-                <li class="contact-item">
-                    <p class="contact-tel"><span class="connection">Telephone: </span>0123-456-789</p>
-                </li>
-                <li class="contact-item">
-                    <p class="contact-email"><span class="connection">Email: </span><a href="mailto:free@psdfreebies.com">free@psdfreebies.com</a></p>
-                </li>
-                <li class="contact-item">
-                    <p class="conatct-office"><span class="connection">Head Office:</span>245 Yellow House,Main Street, London. 456789</p>
-                </li>
-            </ul>
-        </section>
+        <div class="section-wrapper">
+            <section class="information">
+                <h2 class="iformation-title">Information</h2>
+                <ul class="information-list">
+                    <li class="information-item">
+                        <a class="information-link" href="#">The brand</a> 
+                    </li>
+                    <li class="information-item">
+                        <a class="information-link" href="#">Local stores</a> 
+                    </li>
+                    <li class="information-item">
+                        <a class="information-link" href="#">Customer service</a> 
+                    </li>
+                    <li class="information-item">
+                        <a class="information-link" href="#">Privacy & cookies</a> 
+                    </li>
+                    <li class="information-item">
+                        <a class="information-link" href="#">Site map</a> 
+                    </li>
+                </ul>
+            </section>
+            <section class="my-profile">
+                <h2 class="my-profile-title">My profile</h2>
+                <ul class="my-profile-list">
+                    <li class="my-profile-item">
+                        <a class="my-profile-link" href="#">Getting Started</a>
+                    </li>
+                    <li class="my-profile-item">
+                        <a class="my-profile-link" href="#">FAQs</a>
+                    </li>
+                    <li class="my-profile-item">
+                        <a class="my-profile-link" href="#">Buying Guide</a>
+                    </li>
+                    <li class="my-profile-item">
+                        <a class="my-profile-link" href="#">Order Returns</a>
+                    </li>
+                    <li class="my-profile-item">
+                        <a class="my-profile-link" href="#">Affiliate Program</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="your-account">
+                <h2 class="your-account-title">Your account</h2>
+                <ul class="your-account-list">
+                    <li class="your-account-item">
+                        <a class="your-account-link" href="#">Shipping & returns</a>
+                    </li>
+                    <li class="your-account-item">
+                        <a class="your-account-link" href="#">Secure shopping</a>
+                    </li>
+                    <li class="your-account-item">
+                        <a class="your-account-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="your-account-item">
+                        <a class="your-account-link" href="#">Award winning</a>
+                    </li>
+                    <li class="your-account-item">
+                        <a class="your-account-link" href="#">Ethical trading</a>
+                    </li>
+                </ul>
+    
+            </section>
+            <section class="lookbook">
+                <h2 class="lookbook-title">My profile</h2>
+                <ul class="lookbook-list">
+                    <li class="lookbook-item">
+                        <a class="lookbook-link" href="#">Getting Started</a>
+                    </li>
+                    <li class="lookbook-item">
+                        <a class="lookbook-link" href="#">FAQs</a>
+                    </li>
+                    <li class="lookbook-item">
+                        <a class="lookbook-link" href="#">Buying Guide</a>
+                    </li>
+                    <li class="lookbook-item">
+                        <a class="lookbook-link" href="#">Order Returns</a>
+                    </li>
+                    <li class="lookbook-item">
+                        <a class="lookbook-link" href="#">Affiliate Program</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="contact">
+                <h2 class="contact-title">Contact details</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <p class="contact-tel"><span class="connection">Telephone: </span>0123-456-789</p>
+                    </li>
+                    <li class="contact-item">
+                        <p class="contact-email"><span class="connection">Email: </span><a href="mailto:free@psdfreebies.com">free@psdfreebies.com</a></p>
+                    </li>
+                    <li class="contact-item">
+                        <p class="conatct-office"><span class="connection">Head Office:</span>245 Yellow House,Main Street, London. 456789</p>
+                    </li>
+                </ul>
+            </section>
+    
+        </div>
         <section class="copyright">
-            <p class="site-coryright">© Copyright e-commerce  1.0. 2022 Designed by Psdfreebies.com</p>
-            <h2 class="footer-logo logo"><a href="#"><span>Fashion</span>Tagline here</a></h2>
+            <h2 class="visually-hidden">Copyright</h2>
+            <p class="site-copyright">© Copyright e-commerce  1.0. 2022 Designed by Psdfreebies.com</p>
+            <p class="footer-logo logo"><span class="fashion">Fashion</span> Tagline here</p>
         </section>
     </footer>
 </body>

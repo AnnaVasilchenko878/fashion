@@ -1,0 +1,642 @@
+/* ===========variables========= */
+:root {
+    --black: #000;
+    --black-two: #292929;
+    --black-three: #2b2b2b;
+    --black-four: #2d2b27;
+    --black-five: #1a1a1a;
+    --black-six: #353535;
+    --black-seven: #171717;
+    --black-eight: #202020;
+    --black-nine: #121212;
+    --white-two: #ededed;
+    --beige: #f3ebdc;
+    --white: #fff;
+    --greyish: #afafaf;
+    --warm-grey: #898989;
+    --very-light-brown: #d9c8aa;
+    --white-four: #d9d9d9;
+    --warm-grey-two: #7d7d7d;
+    --dirty-purple: #575153;
+    --warm-grey-three: #727272;
+    --greyish-brown: #535353;
+}
+
+/* ============fonts========== */
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 700;
+    font-style: normal;
+    src: local("Monserrat"),
+        url("../../fonts/Montserrat-Bold.woff") format(woff),
+        url("../../fonts/Montserrat-Bold.woff2") format(woff2);
+}
+
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 900;
+    font-style: normal;
+    src: local("Monserrat"),
+        url("../../fonts/Montserrat-ExtraBold.woff") format(woff),
+        url("../../fonts/Montserrat-ExtraBold.woff2") format(woff2);
+}
+
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 100;
+    font-style: normal;
+    src: local("Monserrat"),
+        url("../../fonts/Montserrat-Light.woff") format(woff),
+        url("../../fonts/Montserrat-Light.woff2") format(woff2);
+}
+
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 400;
+    font-style: normal;
+    src: local("Monserrat"),
+        url("../../fonts/Montserrat-Regular.woff") format(woff),
+        url("../../fonts/Montserrat-Regular.woff2") format(woff2);
+}
+
+@font-face {
+    font-family: "Monserrat";
+    font-weight: 500;
+    font-style: normal;
+    src: local("Monserrat"),
+        url("../../fonts/Montserrat-SemiBold.woff") format(woff),
+        url("../../fonts/Montserrat-SemiBold.woff2") format(woff2);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: italic;
+    src: local("Open Sans"),
+        url("../../fonts/OpenSans-Italic.woff") format(woff),
+        url("../../fonts/OpenSans-Italic.woff2") format(woff2);
+}
+
+@font-face {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    src: local("Open Sans"),
+        url("../../fonts/OpenSans-Regular.woff") format(woff),
+        url("../../fonts/OpenSans-Regular.woff2") format(woff2);
+}
+
+@font-face {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-style: normal;
+    src: local("Raleway"),
+        url("../../fonts/Raleway-Regular.woff") format(woff),
+        url("../../fonts/Raleway-Regular.woff2") format(woff2);
+}
+
+/* ===============defaultsyle============= */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: "Monserrat", "Arial", sans-serif;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn {
+    border: none;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+
+    white-space: nowrap;
+
+    border: 0;
+
+    clip: rect(0, 0, 0, 0);
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+}
+
+.btn {
+    border: none;
+}
+
+.link-start {
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: var(--white-two);
+}
+
+/* ===========header=========== */
+.header-wrap {
+    padding: 40px 54px 45px 144px;
+    width: 1637px;
+    display: flex;
+
+}
+
+.logo {
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 12px;
+    width: 139px;
+    word-wrap: wrap;
+    line-height: 15px;
+    margin-right: 221px;
+}
+
+.fashion {
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.header-nav {
+    width: 1452px;
+    display: flex;
+}
+
+.nav-list {
+    width: 661px;
+    margin-right: 92px;
+}
+
+.nav-link {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: var(--black-seven);
+}
+
+.nav-button {
+    width: 66px;
+}
+
+/* ========promo======= */
+.promo {
+    display: flex;
+}
+
+.promo-slider {
+    width: 1900px;
+}
+
+.slide-title {
+    font-weight: 700;
+    font-size: 116px;
+    line-height: 108px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--black-eight);
+}
+
+.promo-slide-number {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--black-seven);
+}
+
+.promo-slide-purpose {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--black-seven);
+}
+
+.promo-slide-description {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    color: var(--greyish-brown);
+}
+
+.btn-prev,
+.btn-next {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 71px;
+    text-transform: uppercase;
+    color: var(--black-seven);
+}
+
+.promo-follow {
+    width: 100px;
+}
+
+.promo-follow-item {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 71px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--black-eight);
+
+}
+
+/* =======counter======== */
+.special-offer-title {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 46px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--white-two);
+}
+
+.special-offer-subtitle {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 39px;
+    text-align: left;
+    color: var(--white-two);
+}
+
+.last-price {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: left;
+    text-decoration: line-through;
+    color: var(--white-two);
+}
+
+.new-price {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 47px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--white-two);
+
+}
+
+.special-offer-link {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-nine);
+}
+
+.number-hourse,
+.number-minutes,
+.number-seconds {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+.counter-hourse,
+.counter-minutes,
+.counter-seconds {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 9px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+/* =========product-tab======= */
+.product-tab {
+    margin-left: 409px;
+    margin-bottom: 25px;
+}
+
+.product-tab-header {
+    margin-bottom: 25px;
+}
+
+.tab-header-item {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+.tab-content-item {
+    width: 277px;
+}
+
+.item-vintage {
+    width: 470px;
+}
+
+.item-bags {
+    transform: translate(-14px, -318px);
+}
+
+.item-sunglass {
+    transform: translate(482px, -326px);
+}
+
+.product-tab-content {
+    width: 1171px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-signature {
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+.content-product {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 36px;
+    text-align: center;
+    color: var(--black-two);
+}
+
+/* =============product-new====== */
+.product-new {
+    margin-bottom: 105px;
+}
+
+.product-new-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--black-four);
+}
+
+.product-new-subtitle {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--black-five);
+}
+
+.product-new-view {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 71px;
+    text-align: center;
+    color: var(--black-three);
+}
+
+/* =============product-types=== */
+.product-types {
+    margin-bottom: 100px;
+    margin-left: 409px;
+}
+
+.product-types-slider {
+    display: flex;
+    width: 1171px;
+}
+
+.product-type-slide {
+    width: 369px;
+}
+
+.product-types-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+.product-types-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 6px;
+    color: var(--black-five);
+}
+
+/* ========featured-product-slider== */
+.featured-product {
+    margin-left: 409px;
+    margin-bottom: 89px;
+}
+
+.product-header-item {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+.featured-product-slider {
+    display: flex;
+    width: 1171px;
+}
+
+.featured-product-slide {
+    width: 272px;
+}
+
+.featured-product-title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 11px;
+    text-align: left;
+    color: var(--black-five);
+}
+
+.featured-product-brand {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 11px;
+    text-align: left;
+    color: var(--warm-grey);
+}
+
+.featured-product-last-price {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 11px;
+    text-align: left;
+    text-decoration: line-through;
+    color: var(--black-five);
+}
+
+.features-product-new-price {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 11px;
+    text-align: left;
+    color: var(--black-five);
+}
+
+.featured-product-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--black-five);
+
+}
+
+/* ==========subscribe============ */
+.subscribe {
+    margin-left: 409px;
+    margin-bottom: 184px;
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--black-five);
+}
+
+.subscribe-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: left;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: var(--black-five);
+}
+
+/* ===============news-slide===== */
+.news {
+    margin-left: 406px;
+}
+
+.news-slider {
+    display: flex;
+}
+
+.news-slide {
+    width: 572px;
+}
+
+.news-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+.news-data {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    text-align: center;
+    color: var(--warm-grey-two);
+}
+
+/* =========footer======== */
+.section-wrapper {
+    display: flex;
+    margin-left: 406px;
+}
+
+.section-wrapper>section {
+    width: 200px;
+}
+
+.information-title,
+.my-profile-title,
+.your-account-title,
+.lookbook-title,
+.contact-title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--dirty-purple);
+}
+
+.information-link,
+.my-profile-link,
+.your-account-link,
+.lookbook-link,
+.contact-link {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    color: var(--warm-grey-three);
+}
+
+.connection {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    color: var(--black);
+}
+
+.site-copyright {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--warm-grey-three);
+}
+
+.footer-logo {
+    margin: 0 auto;
+}

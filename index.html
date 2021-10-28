@@ -31,13 +31,13 @@
                 </ul>
                 <div class="nav-button">
                     <a href="#" class="icon-basket">
-                        <img src="#" alt="#">
+                        <img class="icon-bag-img" src="img/icon-bag.svg" alt="Bag">
                     </a>
                     <button class="btn btn-search">
-                        <img src="#" alt="#">
+                        <img class="icon-search" src="img/icon-search.svg" alt="Search">
                     </button>
                     <button class="btn btn-menu">
-                        <img src="#" alt="#">
+                        <img class="icon-menu" src="img/icon-menu.svg" alt="Menu">
                     </button>
                 </div>
             </nav>
@@ -46,10 +46,18 @@
     <main>
         <section class="promo">
             <ul class="promo-follow">
-                <li class="promo-follow-item"><a class="follow-link" href="#">Instagram</a></li>
-                <li class="promo-follow-item"><a class="follow-link" href="#">Google</a></li>
-                <li class="promo-follow-item"><a class="follow-link" href="#">Twitter</a></li>
-                <li class="promo-follow-item"><a class="follow-link" href="#">Facebook</a></li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">
+                    <img class="icon-img" src="img/icon-facebook.svg" alt="We are on Facebook">
+                </a></li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">
+                    <img class="icon-img" src="img/icon-twitter.svg" alt="We are on Twitter">
+                </a></li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">
+                    <img class="icon-img" src="img/icon-google.svg" alt="We are on Google">
+                </a></li>
+                <li class="promo-follow-item"><a class="follow-link" href="#">
+                    <img class="icon-img" src="img/icon-instagram.svg" alt="We are on Instagram">
+                </a></li>
                 <li class="promo-follow-item follow">Follow us</li>
             </ul>
             <ul class="promo-slider">
@@ -120,7 +128,7 @@
                 <li class="tab-content-item">
                     <picture>
                         <source type="image/webp" srcset="img/img-sneakers.webp">
-                        <img class="content-img" src="img/img-sneakers.jpg" width="277" height="278" alt="Sneakers">
+                        <img class="content-img" src="img/img-sneakers.jpg" width="277" height="333" alt="Sneakers">
                     </picture>
                     <p class="content-signature content-sneakers">Buy 2 get up 50% off</p> 
                 </li>
@@ -129,10 +137,10 @@
                         <source type="image/webp" srcset="img/img-vintage-look.webp">
                         <img class="content-img" src="img/img-vintage-look.jpg" width="470" height="526" alt="Vintage look">
                     </picture>
-                    <div class="vintage-wrapper">
+                    <div class="tab-content-wrapper">
                         <p class="content-product">Winter jacket</p>
                         <p class="content-signature">Vintage look for women</p> 
-                        <a class="content-view link-start">Shop now</a>    
+                        <a class="content-view link-start" href="#">Shop now</a>   
                     </div>
                 </li>
                 <li class="tab-content-item">
@@ -140,9 +148,12 @@
                         <source type="image/webp" srcset="img/img-men-look.webp">
                         <img class="content-img" src="img/img-men-look.jpg" width="371" height="259" alt="Men look">
                     </picture>
-                    <p class="content-product">Winter jacket</p>
-                    <p class="content-signature">Fashion for men</p> 
-                    <a class="content-view link-start">Shop now</a>
+                    <div class="tab-content-wrapper wrapper-men">
+                        <p class="content-product">Winter jacket</p>
+                        <p class="content-signature">Fashion for men</p> 
+                        <a class="content-view link-start" href="#">Shop now</a>   
+
+                    </div>                     
                 </li>
                 <li class="tab-content-item item-bags">
                     <picture>
@@ -152,10 +163,10 @@
 
                 </li>
                 <li class="tab-content-item item-sunglass">
-                    <!-- <picture> -->
-                        <!-- <source type="image/webp" srcset="img/sunglass.webp"> -->
-                        <!-- <img class="content-img" src="img/img-sunglass.jpg" width="370" height="244" alt="Sunglass"> -->
-                    <!-- </picture> -->
+                    <picture>
+                        <source type="image/webp" srcset="img/img-sunglass.webp">
+                        <img class="content-img" src="img/img-sunglass.jpg" width="370" height="244" alt="Sunglass">
+                    </picture>
                     <p class="content-signature">40% off on sunglasses</p> 
                 </li>
             </ul>
@@ -191,8 +202,8 @@
                     <a class="product-link link-start" href="#">Shop kids</a>
                 </li>
             </ul>
-            <button class="btn btn-prev">Prev</button>
-            <button class="btn btn-next">Next</button>
+            <button class="btn product-types-btn btn-prev">Prev</button>
+            <button class="btn product-types-btn btn-next">Next</button>
         </section>
         <section class="featured-product">
             <ul class="featured-product-header">

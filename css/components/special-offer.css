@@ -1,0 +1,109 @@
+.special-offer {
+    display: flex;
+    position: absolute;
+    top: 638px;
+    left: 1313px;
+}
+
+.special-offer-pic {
+    width: 231px;
+    height: 490px;
+}
+
+.special-offer-img {
+    height: 490px;
+}
+
+.special-offer-wrapper {
+    width: 455px;
+    background-color: var(--black);
+    padding: 28px 51px 63px 59px;
+
+}
+
+.special-offer-title {
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 46px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--white-two);
+}
+
+.special-offer-subtitle {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 39px;
+    text-align: left;
+    color: var(--white-two);
+}
+
+.last-price {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: left;
+    text-decoration: line-through;
+    color: var(--white-two);
+    margin-right: 13px;
+}
+
+.new-price {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 47px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--white-two);
+    margin-right: 49px;
+
+}
+
+.special-offer-link {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-nine);
+    padding: 17px 30px;
+    border-radius: 22px;
+    background-color: beige;
+}
+
+.counter {
+    display: flex;
+    margin-top: 36px;
+}
+
+.counter-item {
+    width: 91px;
+    height: 105px;
+    background-color: var(--white-two);
+    border-radius: 20px;
+    padding: 25px 21px 22px 22px;
+    margin-right: 20px;
+}
+
+.number-hourse,
+.number-minutes,
+.number-seconds {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+.counter-hourse,
+.counter-minutes,
+.counter-seconds {
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 9px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}

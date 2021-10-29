@@ -1,0 +1,52 @@
+.section-wrapper {
+    display: flex;
+    margin-left: 406px;
+}
+
+.section-wrapper>section {
+    width: 200px;
+}
+
+.information-title,
+.my-profile-title,
+.your-account-title,
+.lookbook-title,
+.contact-title {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    color: var(--dirty-purple);
+}
+
+.information-link,
+.my-profile-link,
+.your-account-link,
+.lookbook-link,
+.contact-link {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    color: var(--warm-grey-three);
+}
+
+.connection {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    color: var(--black);
+}
+
+.site-copyright {
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--warm-grey-three);
+}
+
+.footer-logo {
+    margin: 0 auto;
+}

@@ -1,0 +1,78 @@
+.header-wrap {
+    padding: 40px 54px 45px 144px;
+    width: 1637px;
+    display: flex;
+
+}
+
+.logo {
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 12px;
+    width: 139px;
+    word-wrap: wrap;
+    line-height: 15px;
+    margin-right: 221px;
+}
+
+.fashion {
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.header-nav {
+    width: 1452px;
+    display: flex;
+}
+
+.nav-list {
+    width: 793px;
+    display: flex;
+    margin-right: 550px;
+}
+
+.nav-item {
+    width: 172px;
+}
+
+.nav-link {
+    font-weight: 100;
+    text-transform: uppercase;
+    color: var(--black-seven);
+}
+
+.nav-button {
+    width: 66px;
+    display: flex;
+}
+
+.icon-basket {
+    margin-right: 25px;
+    width: 15px;
+}
+
+.icon-bag-img {
+    width: 15px;
+    height: 16px;
+}
+
+.btn-search {
+    margin-right: 25px;
+    width: 15px;
+    margin-top: -30px;
+}
+
+.icon-search {
+    width: 15px;
+    height: 16px;
+}
+
+.btn-menu {
+    width: 15px;
+    margin-top: -32px;
+}
+
+.icon-menu {
+    width: 15px;
+    height: 16px;
+}

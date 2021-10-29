@@ -1,0 +1,93 @@
+.product-tab {
+    margin-left: 409px;
+    margin-bottom: 25px;
+}
+
+.product-tab-header {
+    margin-bottom: 54px;
+    width: 1075px;
+    display: flex;
+}
+
+.tab-header-item {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+    width: 180px;
+}
+
+.product-tab-content {
+    width: 1171px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab-content-item {
+    width: 277px;
+    margin-right: 24px;
+    position: relative;
+}
+
+.item-vintage {
+    width: 470px;
+    position: relative;
+}
+
+.tab-content-wrapper {
+    position: absolute;
+    top: 95px;
+    left: 63px;
+}
+
+.wrapper-men {
+    top: 35px;
+    left: 40px;
+}
+
+.wrapper-men>.content-signature {
+    width: 118px;
+}
+
+.item-bags {
+    transform: translateY(-179px);
+}
+
+.item-sunglass {
+    transform: translate(494px, -251px);
+}
+
+.content-product {
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 36px;
+    color: var(--black-two);
+    margin-bottom: 15px;
+}
+
+.item-sunglass>.content-signature {
+    width: 263px;
+    margin-top: -63px;
+    margin-left: 52px;
+}
+
+.content-signature {
+    width: 169px;
+    font-weight: 700;
+    font-size: 19px;
+    text-transform: uppercase;
+    color: var(--black-four);
+    margin-bottom: 43px;
+
+}
+
+.content-sneakers {
+    width: 116px;
+    text-align: center;
+    margin-top: -65px;
+    margin-left: 78px;
+
+}

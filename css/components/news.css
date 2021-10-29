@@ -1,0 +1,30 @@
+.news {
+    margin-left: 406px;
+}
+
+.news-slider {
+    display: flex;
+}
+
+.news-slide {
+    width: 572px;
+}
+
+.news-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--black-four);
+}
+
+.news-data {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    text-align: center;
+    color: var(--warm-grey-two);
+}

@@ -1,0 +1,106 @@
+.promo {
+    display: flex;
+    background-color: var(--white-grey);
+    margin-bottom: 80px;
+}
+
+.promo-slider {
+    width: 1900px;
+    position: relative;
+}
+
+.promo-slide-item {
+    height: 911px;
+}
+
+.slide-content-wrapper {
+    position: absolute;
+    top: 68px;
+    left: 917px;
+}
+
+.slide-title {
+    font-weight: 700;
+    font-size: 116px;
+    line-height: 108px;
+    word-wrap: wrap;
+    width: 200px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--black-eight);
+    margin-bottom: 41px;
+}
+
+.promo-slide-number {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--black-seven);
+    margin-right: 25px;
+    margin-right: 37px;
+}
+
+.promo-slide-purpose {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--black-seven);
+}
+
+.btn-wrapper {
+    margin-bottom: 50px;
+}
+
+.promo-slide-description {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+    color: var(--greyish-brown);
+    width: 292px;
+    margin-bottom: 40px;
+}
+
+.slide-btn-wrapper {
+    transform: translate(1500px, -1463px);
+}
+
+.btn-prev,
+.btn-next {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 71px;
+    text-transform: uppercase;
+    color: var(--black-seven);
+}
+
+.promo-follow {
+    width: 100px;
+}
+
+.promo-follow-item {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 71px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--black-eight);
+    padding: 36px 15px 20px 38px;
+
+}
+
+.follow {
+    transform: rotate(270deg);
+    width: 150px;
+    margin-left: -31px
+}
+
+.icon-img {
+    width: 19;
+    height: 20px;
+}

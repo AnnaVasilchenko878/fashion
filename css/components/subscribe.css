@@ -1,6 +1,9 @@
 .subscribe {
     margin-left: 409px;
     margin-bottom: 184px;
+    padding: 52px 541px 41px 116px;
+    background-image: url('../../img/bg-subscribe.jpg');
+    background-repeat: no-repeat;
 }
 
 .subscribe-title {
@@ -20,4 +23,8 @@
     letter-spacing: 7px;
     text-transform: uppercase;
     color: var(--black-five);
+}
+
+.btn-subscribe {
+    margin-left: 15%;
 }

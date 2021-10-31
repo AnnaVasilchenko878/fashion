@@ -71,7 +71,9 @@
                         <span class="promo-slide-number">01</span>
                         <span class="promo-slide-purpose">Men&#180;s wear</span>
                         <div class="btn-wrapper">
-                            <button class="btn btn-description" type="button">Description</button>
+                            <button class="btn btn-description" type="button">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" class="svg-inline--fa fa-chevron-right fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"></path>
+                            </svg></button>
                             <button class="btn favorites" type="button">Like</button>
                             <button class="btn share" type="button">Share</button>
                         </div>
@@ -258,13 +260,15 @@
             </ul>
             <button class="btn btn-featured-slider-prev"></button>
             <button class="btn btn-featured-slider-next"></button>
-            <a class="featured-product-link">Show more</a>
+            <div class="link-wrapper">
+                <a class="featured-product-link">Show more</a>  
+            </div>
         </section>
         <section class="subscribe">
             <h2 class="subscribe-title">subscribe to our newsletter</h2>
             <p class="subscribe-subtitle">Sign up now and get 75% off</p>
             <!-- попап -->
-            <button class="btn btn-subscribe link-start">Sign up now</button>
+                <button class="btn btn-subscribe link-start">Sign up now</button>
         </section>
         <section class="news">
             <h2 class="news-title"> our blogs & news</h2>
@@ -273,27 +277,32 @@
                     <picture>
                         <source type="image/webp" srcset="img/img-blog-news-1.webp">
                         <img class="content-img" src="img/img-blog-news-1.jpg" width="572" height="381" alt="Women blog">
-                    </picture>                    
-                    <h3 class="news-title">The 15 secrets about fashion people</h3>
-                    <span class="news-data">January 12, 2020 by admin</span>
+                    </picture>            
+                    <div class="news-slide-wrapper">
+                    <h3 class="news-slide-title">The 15 secrets about fashion people</h3>
+                    <p class="news-slide-data">January 12, 2020 by admin</p>    
+                    </div>        
                 </li>
                 <li class="news-slide">
                     <picture>
                         <source type="image/webp" srcset="img/img-blog-news-2.webp">
                         <img class="content-img" src="img/img-blog-news-2.jpg" width="572" height="381" alt="People blog">
-                    </picture>                    
-                    <h3 class="news-title">The 15 secrets about fashion people</h3>
-                    <span class="news-data">January 12, 2020 by admin</span>
+                    </picture>            
+                    <div class="news-slide-wrapper">
+                    <h3 class="news-slide-title">The 15 secrets about fashion people</h3>
+                    <p class="news-slide-data">January 12, 2020 by admin</p>    
+                    </div>        
+
                 </li>
             </ul>
             <button class="btn btn-news-prev" type="button"></button>
             <button class="btn btn-news-next" type="button"></button>
         </section>
     </main>
-    <footer>
+    <footer  class="footer">
         <div class="section-wrapper">
             <section class="information">
-                <h2 class="iformation-title">Information</h2>
+                <h2 class="information-title">Information</h2>
                 <ul class="information-list">
                     <li class="information-item">
                         <a class="information-link" href="#">The brand</a> 
@@ -377,17 +386,21 @@
                 <h2 class="contact-title">Contact details</h2>
                 <ul class="contact-list">
                     <li class="contact-item">
-                        <p class="contact-tel"><span class="connection">Telephone: </span>0123-456-789</p>
+                        <p class="contact-tel">
+                            <span class="connection">Telephone:</span>0123-456-789</p>
                     </li>
                     <li class="contact-item">
-                        <p class="contact-email"><span class="connection">Email: </span><a href="mailto:free@psdfreebies.com">free@psdfreebies.com</a></p>
+                        <p class="contact-email">
+                            <span class="connection">Email:</span>
+                            <a class="contact-email-send" href="mailto:free@psdfreebies.com">free@psdfreebies.com</a>
+                        </p>
                     </li>
                     <li class="contact-item">
-                        <p class="conatct-office"><span class="connection">Head Office:</span>245 Yellow House,Main Street, London. 456789</p>
+                        <p class="conatct-office">
+                            <span class="connection">Head Office:</span>245 Yellow House,Main Street, London. 456789</p>
                     </li>
                 </ul>
             </section>
-    
         </div>
         <section class="copyright">
             <h2 class="visually-hidden">Copyright</h2>

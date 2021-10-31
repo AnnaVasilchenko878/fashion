@@ -66,10 +66,6 @@
     margin-bottom: 40px;
 }
 
-.slide-btn-wrapper {
-    transform: translate(1500px, -1463px);
-}
-
 .btn-prev,
 .btn-next {
     font-weight: 700;

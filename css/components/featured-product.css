@@ -3,6 +3,11 @@
     margin-bottom: 89px;
 }
 
+.featured-product-header {
+    display: flex;
+    margin-bottom: 54px;
+}
+
 .product-header-item {
     font-weight: 700;
     font-size: 19px;
@@ -10,15 +15,18 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--black-four);
+    width: 180px;
 }
 
 .featured-product-slider {
     display: flex;
     width: 1171px;
+    margin-bottom: 45px;
 }
 
 .featured-product-slide {
     width: 272px;
+    margin-right: 30px;
 }
 
 .featured-product-title {
@@ -54,11 +62,19 @@
     color: var(--black-five);
 }
 
+.link-wrapper {
+    margin-left: 30%;
+}
+
 .featured-product-link {
     font-weight: 400;
     font-size: 12px;
     line-height: 20px;
     text-align: center;
     color: var(--black-five);
-
+    background-color: var(--white);
+    border: 2px solid var(--brown);
+    border-radius: 30px;
+    padding: 25px 45px;
+    text-transform: uppercase;
 }

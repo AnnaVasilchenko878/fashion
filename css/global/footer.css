@@ -1,3 +1,9 @@
+.footer {
+    background-color: var(--grey-two);
+    margin-top: -313px;
+    padding-top: 320px;
+}
+
 .section-wrapper {
     display: flex;
     margin-left: 406px;
@@ -5,6 +11,7 @@
 
 .section-wrapper>section {
     width: 200px;
+    margin-right: 108px;
 }
 
 .information-title,
@@ -17,6 +24,7 @@
     line-height: 20px;
     text-align: left;
     color: var(--dirty-purple);
+    text-transform: uppercase;
 }
 
 .information-link,
@@ -31,6 +39,11 @@
     color: var(--warm-grey-three);
 }
 
+.contact-item,
+.contact-email-send {
+    color: var(--warm-grey-three);
+}
+
 .connection {
     font-weight: 700;
     font-size: 14px;
@@ -39,12 +52,19 @@
     color: var(--black);
 }
 
+.copyright {
+    background-color: var(--white);
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
 .site-copyright {
     font-weight: 100;
     font-size: 14px;
     line-height: 30px;
     text-align: center;
     color: var(--warm-grey-three);
+    margin-bottom: 48px;
 }
 
 .footer-logo {

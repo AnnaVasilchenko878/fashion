@@ -76,7 +76,8 @@
 }
 
 .promo-follow {
-    width: 100px;
+    width: 85px;
+    padding-top: 304px;
 }
 
 .promo-follow-item {
@@ -86,17 +87,40 @@
     text-align: left;
     text-transform: uppercase;
     color: var(--black-eight);
-    padding: 36px 15px 20px 38px;
+    padding: 36px 15px 20px 22px;
+    margin-bottom: -45px;
 
+}
+
+.item-google {
+    padding-left: 31px;
+    margin-bottom: -42px;
+}
+
+.item-instagramm {
+    padding-top: 37px;
+    padding-left: 24px;
+    margin-bottom: -8px;
 }
 
 .follow {
     transform: rotate(270deg);
     width: 150px;
-    margin-left: -31px
+    margin-left: -31px;
+    padding-top: 9px;
+    letter-spacing: 2px;
 }
 
 .icon-img {
-    width: 19;
+    width: 29px;
     height: 20px;
+}
+
+.icon-twitter {
+    width: 37px;
+}
+
+.icon-instagramm {
+    width: 34px;
+    height: 27px;
 }

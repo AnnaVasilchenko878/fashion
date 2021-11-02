@@ -1,3 +1,17 @@
+.header {
+    margin-bottom: 10px;
+}
+
+.header::before {
+    content: "";
+    width: 1920px;
+    height: 7px;
+    position: absolute;
+    top: 137px;
+    left: 0;
+    background-color: var(--beige);
+}
+
 .header-wrap {
     padding: 41px 54px 15px 144px;
     width: 1637px;
@@ -58,7 +72,7 @@
 .nav-button {
     width: 66px;
     display: flex;
-    margin-left: 218px;
+    margin-left: 233px;
 }
 
 .icon-basket {

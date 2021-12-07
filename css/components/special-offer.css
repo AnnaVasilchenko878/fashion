@@ -1,23 +1,21 @@
 .special-offer {
     display: flex;
     position: absolute;
-    top: 638px;
-    left: 1313px;
+    top: 620px;
+    left: 1272px;
 }
 
 .special-offer-pic {
     width: 231px;
-    height: 490px;
-}
-
-.special-offer-img {
-    height: 490px;
+    height: 483px;
 }
 
 .special-offer-wrapper {
-    width: 455px;
+    width: 417px;
     background-color: var(--black);
-    padding: 28px 51px 63px 59px;
+    background-image: url("../../img/bg-counter.png");
+    background-repeat: no-repeat;
+    padding: 14px 51px 68px 40px;
 
 }
 
@@ -28,13 +26,15 @@
     text-align: left;
     text-transform: uppercase;
     color: var(--white-two);
+    letter-spacing: 1px;
+    margin-bottom: -15px;
 }
 
 .special-offer-subtitle {
     font-family: "Open Sans", "Arial", sans-serif;
     font-weight: 400;
     font-size: 21px;
-    line-height: 39px;
+    line-height: 36px;
     text-align: left;
     color: var(--white-two);
 }
@@ -46,7 +46,8 @@
     text-align: left;
     text-decoration: line-through;
     color: var(--white-two);
-    margin-right: 13px;
+    margin-right: 9px;
+    margin-left: 6px;
 }
 
 .new-price {
@@ -56,34 +57,41 @@
     text-align: left;
     text-transform: uppercase;
     color: var(--white-two);
-    margin-right: 49px;
+    margin-right: 48px;
 
 }
 
 .special-offer-link {
     font-weight: 700;
     font-size: 11px;
-    line-height: 17px;
     text-align: center;
     text-transform: uppercase;
     color: var(--black-nine);
-    padding: 17px 30px;
     border-radius: 22px;
     background-color: beige;
 }
 
 .counter {
     display: flex;
-    margin-top: 36px;
+    margin-top: 66px;
 }
 
 .counter-item {
-    width: 91px;
-    height: 105px;
     background-color: var(--white-two);
     border-radius: 20px;
-    padding: 25px 21px 22px 22px;
-    margin-right: 20px;
+    padding: 18px 12px 12px 23px;
+    margin-right: 22px;
+    letter-spacing: 1px;
+}
+
+.counter-item-minutes {
+    padding-right: 13px;
+    padding-left: 16px;
+}
+
+.counter-item-seconds {
+    padding-left: 13px;
+    padding-right: 14px;
 }
 
 .number-hourse,
@@ -91,10 +99,18 @@
 .number-seconds {
     font-weight: 700;
     font-size: 38px;
-    line-height: 32px;
+    line-height: 46px;
     text-align: center;
     text-transform: uppercase;
     color: var(--black-four);
+}
+
+.number-minutes {
+    margin-left: 4px;
+}
+
+.number-seconds {
+    margin-left: 18px;
 }
 
 .counter-hourse,

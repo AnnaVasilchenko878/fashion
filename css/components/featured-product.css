@@ -1,27 +1,26 @@
 .featured-product {
-    margin-left: 409px;
+    margin-left: 372px;
     margin-bottom: 89px;
 }
 
-.featured-product-header {
-    display: flex;
-    margin-bottom: 54px;
+.featured-product-title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-left: 441px;
+    letter-spacing: 2px;
+    margin-bottom: 56px;
 }
 
-.product-header-item {
-    font-weight: 700;
-    font-size: 19px;
-    line-height: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--black-four);
-    width: 180px;
+.featured-tab {
+    margin-bottom: 59px;
 }
 
 .featured-product-slider {
     display: flex;
     width: 1171px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
 
 .featured-product-slide {
@@ -29,12 +28,19 @@
     margin-right: 30px;
 }
 
-.featured-product-title {
+.featured-product-item-title {
     font-weight: 700;
     font-size: 15px;
     line-height: 11px;
     text-align: left;
     color: var(--black-five);
+    margin-left: 4px;
+    letter-spacing: -0.4px;
+    margin-bottom: -4px;
+}
+
+.featured-content-img {
+    margin-bottom: 12px;
 }
 
 .featured-product-brand {
@@ -43,18 +49,22 @@
     line-height: 11px;
     text-align: left;
     color: var(--warm-grey);
+    margin-left: 5px;
+    margin-bottom: 4px;
 }
 
 .featured-product-last-price {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 15px;
     line-height: 11px;
     text-align: left;
     text-decoration: line-through;
     color: var(--black-five);
+    margin-left: 3px;
+    margin-right: 8px;
 }
 
-.features-product-new-price {
+.featured-product-new-price {
     font-weight: 700;
     font-size: 15px;
     line-height: 11px;
@@ -67,7 +77,7 @@
 }
 
 .featured-product-link {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 12px;
     line-height: 20px;
     text-align: center;
@@ -75,6 +85,7 @@
     background-color: var(--white);
     border: 2px solid var(--brown);
     border-radius: 30px;
-    padding: 25px 45px;
+    padding: 20px 44px 20px 41px;
     text-transform: uppercase;
+    margin-left: 38px;
 }

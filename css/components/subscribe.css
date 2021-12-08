@@ -1,7 +1,7 @@
 .subscribe {
-    margin-left: 409px;
-    margin-bottom: 184px;
-    padding: 52px 541px 41px 116px;
+    margin-left: 375px;
+    margin-bottom: 105px;
+    padding: 30px 525px 42px 115px;
     background-image: url('../../img/bg-subscribe.jpg');
     background-repeat: no-repeat;
 }
@@ -13,18 +13,26 @@
     text-align: left;
     text-transform: uppercase;
     color: var(--black-five);
+    letter-spacing: 1.8px;
+    margin-bottom: 18px;
 }
 
 .subscribe-subtitle {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 16px;
     line-height: 23px;
     text-align: left;
-    letter-spacing: 7px;
+    letter-spacing: 6.3px;
     text-transform: uppercase;
     color: var(--black-five);
+    margin-left: 34px;
+    margin-bottom: 23px;
 }
 
 .btn-subscribe {
-    margin-left: 15%;
+    font-size: 14px;
+    margin-left: 165px;
+    letter-spacing: 1px;
+    padding: 31px 52px 27px 47px;
+    border-radius: 35px;
 }

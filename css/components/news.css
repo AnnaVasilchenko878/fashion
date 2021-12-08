@@ -1,5 +1,5 @@
 .news {
-    margin-left: 406px;
+    margin-left: 373px;
     margin-bottom: 147px;
 }
 
@@ -11,7 +11,8 @@
     text-transform: uppercase;
     color: var(--black-four);
     margin-bottom: 61px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    margin-left: -371px;
 }
 
 .news-slider {
@@ -27,11 +28,11 @@
 .news-slide-wrapper {
     width: 498px;
     background-color: var(--white);
-    padding: 7px 34px 6px 56px;
+    padding: 4px 2px 0px 24px;
     position: absolute;
-    top: 329px;
-    left: 28px;
-
+    top: 344px;
+    left: 38px;
+    letter-spacing: 0.5px;
 }
 
 .news-slide-title {
@@ -41,6 +42,7 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--black-four);
+    margin-bottom: -11px;
 }
 
 .news-slide-data {

@@ -10,7 +10,9 @@
     text-align: center;
     text-transform: uppercase;
     color: var(--black-four);
-    margin-bottom: 25px;
+    margin-bottom: 23px;
+    margin-left: -372px;
+    letter-spacing: 2px;
 }
 
 .product-types-subtitle {
@@ -20,7 +22,8 @@
     text-align: center;
     letter-spacing: 6px;
     color: var(--black-five);
-    margin-bottom: 46px;
+    margin-bottom: 44px;
+    margin-left: -368px;
 }
 
 .product-types-slider {
@@ -36,17 +39,29 @@
 
 .product-link {
     position: absolute;
-    top: 401px;
-    left: 111px;
+    top: 379px;
+    left: 101px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 25px 49px 22px 47px;
+    border-radius: 35px;
+}
+
+.shop-women {
+    left: 104px;
+    padding-right: 33px;
+    padding-left: 33px;
 }
 
 .product-types-btn {
     background-color: var(--brownish-grey);
-    padding: 16px 35px 13px 34px;
-    line-height: 12px;
-    transform: translateX(-120px) translateY(-300px) rotate(270deg);
+    padding: 19px 25px 21px 33px;
+    line-height: 4px;
+    transform: translateX(-167px) translateY(-272px) rotate(270deg);
+    letter-spacing: 3px;
+    font-size: 14px;
 }
 
 .btn-next {
-    transform: translateX(1099px) translateY(-300px) rotate(-270deg);
+    transform: translateX(1199px) translateY(-272px) rotate(-90deg);
 }

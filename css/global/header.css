@@ -22,11 +22,12 @@
 .logo {
     text-transform: uppercase;
     color: var(--black);
-    font-size: 14px;
+    font-size: 13px;
     width: 223px;
-    line-height: 17px;
+    line-height: 16px;
     margin-right: 218px;
     text-align: center;
+    margin-top: 16px;
 }
 
 .fashion {

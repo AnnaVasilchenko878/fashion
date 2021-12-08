@@ -1,17 +1,30 @@
 .footer {
     background-color: var(--grey-two);
-    margin-top: -313px;
-    padding-top: 320px;
+    margin-top: -277px;
+    padding-top: 227px;
 }
 
 .section-wrapper {
     display: flex;
-    margin-left: 406px;
+    margin-left: 372px;
+    padding-bottom: 97px;
 }
 
 .section-wrapper>section {
     width: 200px;
-    margin-right: 108px;
+    margin-right: 16px;
+}
+
+.section-wrapper>.your-account {
+    margin-right: 35px;
+}
+
+.section-wrapper>.lookbook {
+    margin-right: 66px;
+}
+
+.section-wrapper>.contact {
+    width: 250px;
 }
 
 .information-title,
@@ -25,6 +38,11 @@
     text-align: left;
     color: var(--dirty-purple);
     text-transform: uppercase;
+    margin-bottom: 27px;
+}
+
+.contact-title {
+    margin-bottom: 13px;
 }
 
 .information-link,
@@ -39,17 +57,39 @@
     color: var(--warm-grey-three);
 }
 
+.contact-item {
+    display: flex;
+    margin-bottom: -27px;
+}
+
+.contact-item:nth-child(2) {
+    margin-bottom: 1px;
+}
+
 .contact-item,
-.contact-email-send {
+.contact-email-send,
+.adress-connection {
     color: var(--warm-grey-three);
+    font-weight: 400;
+}
+
+.contact-email-send {
+    letter-spacing: 0.3px;
+    font-size: 13px;
 }
 
 .connection {
     font-weight: 700;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 30px;
     text-align: left;
     color: var(--black);
+    margin-right: 3px;
+}
+
+.tel-connection {
+    margin-top: 17px;
+    letter-spacing: 0.5px;
 }
 
 .copyright {
@@ -59,14 +99,17 @@
 }
 
 .site-copyright {
-    font-weight: 100;
+    font-weight: 400;
     font-size: 14px;
     line-height: 30px;
     text-align: center;
     color: var(--warm-grey-three);
-    margin-bottom: 48px;
+    margin-bottom: 43px;
+    margin-top: -8px;
+    margin-left: 47px;
 }
 
 .footer-logo {
     margin: 0 auto;
+    width: 193px;
 }

@@ -1,12 +1,13 @@
 .product-tab {
-    margin-left: 409px;
+    margin-left: 373px;
     margin-bottom: 25px;
 }
 
 .product-tab-header {
-    margin-bottom: 54px;
+    margin-bottom: 58px;
     width: 1075px;
     display: flex;
+    margin-left: 100px;
 }
 
 .tab-header-item {
@@ -17,6 +18,10 @@
     text-transform: uppercase;
     color: var(--black-four);
     width: 180px;
+}
+
+.item-spring {
+    margin-right: 20px;
 }
 
 .product-tab-content {
@@ -34,21 +39,27 @@
 .item-vintage {
     width: 470px;
     position: relative;
+    margin-right: 30px;
 }
 
 .tab-content-wrapper {
     position: absolute;
-    top: 95px;
-    left: 63px;
+    top: 101px;
+    left: 39px;
 }
 
 .wrapper-men {
-    top: 35px;
-    left: 40px;
+    top: 49px;
+    left: 30px;
+}
+
+.wrapper-men>.content-product {
+    margin-bottom: -22px;
 }
 
 .wrapper-men>.content-signature {
     width: 118px;
+    margin-bottom: 37px;
 }
 
 .item-bags {
@@ -56,7 +67,7 @@
 }
 
 .item-sunglass {
-    transform: translate(494px, -251px);
+    transform: translate(500px, -253px);
 }
 
 .content-product {
@@ -65,13 +76,18 @@
     font-size: 13px;
     line-height: 36px;
     color: var(--black-two);
-    margin-bottom: 15px;
+    margin-bottom: -12px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
 }
 
 .item-sunglass>.content-signature {
-    width: 263px;
-    margin-top: -63px;
-    margin-left: 52px;
+    width: 276px;
+    margin-top: -56px;
+    margin-left: 86px;
+    margin-bottom: 38px;
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
 .content-signature {
@@ -80,14 +96,18 @@
     font-size: 19px;
     text-transform: uppercase;
     color: var(--black-four);
-    margin-bottom: 43px;
-
+    margin-bottom: 40px;
+    line-height: 24px;
+    letter-spacing: 1px;
 }
 
 .content-sneakers {
-    width: 116px;
+    width: 154px;
     text-align: center;
-    margin-top: -65px;
-    margin-left: 78px;
+    margin-top: -81px;
+    margin-left: 52px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 26px;
 
 }
